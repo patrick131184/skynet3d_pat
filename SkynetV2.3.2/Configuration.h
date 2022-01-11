@@ -1,4 +1,4 @@
-/**
+p/**
  * Marlin 3D Printer Firmware
  * Copyright (C) 2016 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
@@ -330,9 +330,9 @@
 
   // ANET A8 Standard Extruder at 210 Degree Celsius and 100% Fan
   //(measured after M106 S255 with M303 E0 S210 C8)
-  #define  DEFAULT_Kp 42.78
-  #define  DEFAULT_Ki 4.91
-  #define  DEFAULT_Kd 93.22
+#define  DEFAULT_Kp 28.01
+#define  DEFAULT_Ki 2.71
+#define  DEFAULT_Kd 72.28
 
 #endif // PIDTEMP
 
